@@ -1,0 +1,43 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+#container {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 5%;
+}
+
+button {
+  font-size: 1rem;
+  color: aliceblue;
+  background-color: #0000ffb6;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 255, 0.856);
+}
+
+button:active {
+  background-color: blue;
+}
+
+input {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  width: 250px;
+}
+
+#dice-text {
+  margin: 25px;
+}
+
+#dice-img img {
+  width: 70px;
+}
